@@ -1,18 +1,25 @@
 # nicheFinder
 This is a Niche Finder 
 
+Task 1: Scrape static page to find the following  
 
-gets the average amount of monthly sales for an item
+try scraping this: https://www.amazon.com/Organic-Natural-Beeswax-Coating-Unbleached/dp/B071HN1MK6/ref=sr_1_2?s=furniture&ie=UTF8&qid=1507248955&sr=8-2&keywords=beewix
+
+#other Sellers (competitors)  ---                   : Found on Amazon page
+Number reviews (as a Barrier to entry).             : Found on Amazon
+Price Range                                         : Found on Amazon
+
+Dimensions of product                               : Found on Amazon
+
+using python Selenium 
+http://selenium-python.readthedocs.io/
+
+--------------------------------------------------------------------------
+Task 2: Monthly Sales using amzscout API
 https://amzscout.net/estimator/v1/sales?domain=COM&category=Shoes&rank=99
 
-
-Monthly Sales                                       : use amzscout api
-#other Sellers (competitors)  ---                   : found on amazon page
-Number reviews (as a Barrier to entry).             : Found on Amazon
-Price Range (stay under $30)                        : Found on amazon
-
-Dimensions of product                               : found on Amazon
-
+-------------------------------------------------------------------------
+Task 3: 
 
 
 Ability to search by category and enter numbers for above categories
