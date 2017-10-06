@@ -19,7 +19,11 @@ Task 2: Monthly Sales using amzscout API
 https://amzscout.net/estimator/v1/sales?domain=COM&category=Shoes&rank=99
 
 -------------------------------------------------------------------------
-Task 3: 
+Task 3: Crawl amazon from product to product in a category
+
+https://scrapy.org/
+
+-------------------------------------------------------------------------
 
 
 Ability to search by category and enter numbers for above categories
