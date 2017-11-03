@@ -15,8 +15,19 @@ SPIDER_MODULES = ['nicheFinder.spiders']
 NEWSPIDER_MODULE = 'nicheFinder.spiders'
 
 
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'nicheFinder (+http://www.yourdomain.com)'
+
+# Crawl irresponsibly by spoofing the user agent so amazon doesn't detect us as
+# a bot. It's not illegal.
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None,
+    'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware': 400,
+}
+
+RANDOM_UA_TYPE = 'Firefox'
+FAKEUSERAGENT_FALLBACK = "Mozilla"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
